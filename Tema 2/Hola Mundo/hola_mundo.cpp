@@ -15,7 +15,7 @@ int main()
     vector<string> mensaje {"Hola", "mundo", "del", "calculo", "numerico!"};
 
     // Iteramos con un bucle sobre las palabras del mensaje
-    for (const string& palabra : mensaje)
+    for (string palabra : mensaje)
     {
         // Mostramos una palabra en la pantalla
         cout << palabra << " ";
